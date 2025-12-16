@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KHWALI | Steel Fabrication</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f4f4f4;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 100px 20px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    header img {
+      max-width: 250px;
+      margin-bottom: 25px;
+      transition: transform 0.3s ease;
+    }
+    header img:hover {
+      transform: scale(1.1);
+    }
+    header p {
+      font-size: 1.8em;
+      margin-top: 10px;
+      color: #fff;
+      text-shadow: 1px 1px 5px #000;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      color: #111;
+      margin-bottom: 30px;
+      text-align: center;
+      position: relative;
+    }
+    h2::after {
+      content: '';
+      display: block;
+      width: 80px;
+      height: 4px;
+      background: #111;
+      margin: 10px auto 0;
+      border-radius: 2px;
+    }
+    .services, .portfolio, .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      border: none;
+      padding: 25px;
+      border-radius: 12px;
+      background: #fff;
+      text-align: center;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      background: #fff;
+    }
+    .contact {
+      text-align: center;
+    }
+    .contact form {
+      max-width: 500px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+    input, textarea, button {
+      padding: 15px;
+      font-size: 16px;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+      outline: none;
+    }
+    button {
+      background: #111;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #333;
+    }
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: #fff;
+      padding: 15px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+    .whatsapp:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="WhatsApp Image 2025-12-16 at 18.19.38_1139b784.jpg" alt="KHWALI Logo" />
+  <p>Professional Steel Fabrication Solutions</p>
+</header>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    KHWALI is a steel fabrication company in <strong>Bulawayo, Zimbabwe</strong>, specialising in high-quality, durable, and custom steel solutions. 
+    We serve individuals, contractors, and organisations in residential, commercial, and institutional projects, including homes, schools, hospitals, and industrial facilities.
+    At KHWALI, we prioritise precision, strength, and reliability, ensuring every project meets safety standards and client expectations.
+  </p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">Structural steel fabrication</div>
+    <div class="card">Gates and burglar bars</div>
+    <div class="card">Staircases</div>
+    <div class="card">Roof trusses</div>
+    <div class="card">Window frames</div>
+    <div class="card">Verandah enclosures</div>
+    <div class="card">Gazebos</div>
+    <div class="card">Custom steel & wood-steel products (coffee tables, TV stands, fitted cupboards)</div>
+    <div class="card">Solar stands & water tank stands</div>
+  </div>
+  <p style="text-align:center; margin-top:20px;">
+    Pricing is project-based. Contact us for a detailed quotation.
+  </p>
+</section>
+
+<section id="portfolio">
+  <h2>Portfolio</h2>
+  <div class="portfolio">
+    <!-- Sliding gates -->
+    <div class="card"><img src="sliding1.jpg" alt="Sliding Gate"></div>
+    <div class="card"><img src="sliding2.jpg" alt="Sliding Gate"></div>
+    <div class="card"><img src="sliding3.jpg" alt="Sliding Gate"></div>
+
+    <!-- Staircases -->
+    <div class="card"><img src="staircase1.jpg" alt="Staircase"></div>
+    <div class="card"><img src="staircase2.jpg" alt="Staircase"></div>
+    <div class="card"><img src="staircase3.jpg" alt="Staircase"></div>
+
+    <!-- Verandah enclosures -->
+    <div class="card"><img src="verandah1.jpg" alt="Verandah Enclosure"></div>
+    <div class="card"><img src="verandah2.jpg" alt="Verandah Enclosure"></div>
+    <div class="card"><img src="verandah3.jpg" alt="Verandah Enclosure"></div>
+
+    <!-- Concrete shutters -->
+    <div class="card"><img src="concrete1.jpg" alt="Concrete Shutter"></div>
+    <div class="card"><img src="concrete2.jpg" alt="Concrete Shutter"></div>
+    <div class="card"><img src="concrete3.jpg" alt="Concrete Shutter"></div>
+
+    <!-- Shade structures -->
+    <div class="card"><img src="shade1.jpg" alt="Shade Structure"></div>
+    <div class="card"><img src="shade2.jpg" alt="Shade Structure"></div>
+
+    <!-- Window frame -->
+    <div class="card"><img src="window1.jpg" alt="Window Frame"></div>
+
+    <!-- Solar and water tank stands -->
+    <div class="card"><img src="solar1.jpg" alt="Solar and Water Tank Stand"></div>
+    <div class="card"><img src="solar2.jpg" alt="Solar and Water Tank Stand"></div>
+    <div class="card"><img src="solar3.jpg" alt="Solar and Water Tank Stand"></div>
+
+    <!-- Wood and steel -->
+    <div class="card"><img src="woodsteel1.jpg" alt="Wood and Steel"></div>
+    <div class="card"><img src="woodsteel2.jpg" alt="Wood and Steel"></div>
+    <div class="card"><img src="woodsteel3.jpg" alt="Wood and Steel"></div>
+  </div>
+</section>
+
+<section id="testimonials">
+  <h2>Testimonials</h2>
+  <div class="testimonials">
+    <div class="card">"Strong workmanship and reliable service."</div>
+    <div class="card">"Delivered on time and exceeded expectations."</div>
+    <div class="card">"Professional steel fabrication you can trust."</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact">
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 KHWALI | Bulawayo</p>
+  <p>Call: +263 775 203 118 | +263 712 946 513</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/263775203118" target="_blank">WhatsApp Us</a>
+
+</body>
+</html>
